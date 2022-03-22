@@ -2,19 +2,19 @@
 <project version="4">
   <component name="KotlinScriptingSettings">
     <scriptDefinition className="org.jetbrains.kotlin.scripting.resolve.KotlinScriptDefinitionFromAnnotatedTemplate" definitionName="KotlinInitScript">
-      <order>0</order>
-    </scriptDefinition>
-    <scriptDefinition className="org.jetbrains.kotlin.scripting.resolve.KotlinScriptDefinitionFromAnnotatedTemplate" definitionName="KotlinSettingsScript">
       <order>1</order>
     </scriptDefinition>
-    <scriptDefinition className="org.jetbrains.kotlin.scripting.resolve.KotlinScriptDefinitionFromAnnotatedTemplate" definitionName="KotlinBuildScript">
+    <scriptDefinition className="org.jetbrains.kotlin.scripting.resolve.KotlinScriptDefinitionFromAnnotatedTemplate" definitionName="KotlinSettingsScript">
       <order>2</order>
     </scriptDefinition>
-    <scriptDefinition className="circlet.pipelines.config.dsl.scriptdefinition.ProjectScriptDefinition" definitionName="ProjectScriptDefinition">
+    <scriptDefinition className="org.jetbrains.kotlin.scripting.resolve.KotlinScriptDefinitionFromAnnotatedTemplate" definitionName="KotlinBuildScript">
       <order>3</order>
     </scriptDefinition>
-    <scriptDefinition className="org.jetbrains.kotlin.mainKts.MainKtsScript" definitionName="MainKtsScript">
+    <scriptDefinition className="circlet.pipelines.config.dsl.scriptdefinition.ProjectScriptDefinition" definitionName="ProjectScriptDefinition">
       <order>4</order>
+    </scriptDefinition>
+    <scriptDefinition className="org.jetbrains.kotlin.mainKts.MainKtsScript" definitionName="MainKtsScript">
+      <order>5</order>
     </scriptDefinition>
     <scriptDefinition className="script.NwtScript" definitionName="NwtScript">
       <order>5</order>
@@ -26,7 +26,7 @@
       <order>7</order>
     </scriptDefinition>
     <scriptDefinition className="nwt.script.NwtScript" definitionName="NwtScript">
-      <order>5</order>
+      <order>0</order>
     </scriptDefinition>
   </component>
 </project>
