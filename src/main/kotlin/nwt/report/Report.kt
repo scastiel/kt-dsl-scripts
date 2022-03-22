@@ -1,7 +1,7 @@
-package report
+package nwt.report
 
-import domain.Account
-import domain.Snapshot
+import nwt.domain.Account
+import nwt.domain.Snapshot
 
 class Report(val accounts: List<Account>, val snapshots: List<Snapshot>) {
   fun displayAccountList() {

@@ -1,4 +1,4 @@
-package domain
+package nwt.domain
 
 import java.time.LocalDate
 

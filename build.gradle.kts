@@ -14,6 +14,10 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+
+    implementation("org.jetbrains.kotlin:kotlin-scripting-common:1.6.0")
+    implementation("org.jetbrains.kotlin:kotlin-scripting-jvm:1.6.0")
+    implementation("org.jetbrains.kotlin:kotlin-scripting-jvm-host:1.6.0")
 }
 
 tasks.test {
