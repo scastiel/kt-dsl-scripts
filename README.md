@@ -1,0 +1,1 @@
+This repository contains the code associated to my blog post [Combining scripts and DSLs is Kotlin’s most underrated feature](https://scastiel.dev/posts/2022-03-23-kotlin-scripts-dsl-underrated-feature).
